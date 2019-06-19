@@ -31,11 +31,13 @@ def train(training_data):
 def classify(testing_data, fitted_model):
     """
     Classify the rows of testing_data using a fitted_model.
-
-    :param testing_data: a two-dimensional numpy-array with shape = [n_test_samples, 38]
-    :param fitted_model: the output of your train function.
-
-    :return class_predictions: a numpy array containing the class predictions for each row
+    
+    Input
+        testing_data: a two-dimensional numpy-array with shape = [n_test_samples, 38]
+        fitted_model: the output of your train function.
+    
+    Output
+        class_predictions: a numpy array containing the class predictions for each row
         of testing_data.
     """
     n = len(testing_data)
