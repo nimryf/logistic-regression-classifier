@@ -13,4 +13,4 @@ I found these [two](http://kenzotakahashi.github.io/logistic-regression-from-scr
 # Setup and use
 
 - Simply download Python and the IDE of choice. 
-- Function example_use() shows how to use the classifier, and also tests its accuracy.
+- Function _example_use()_ shows how to use the classifier, and also tests its accuracy.
